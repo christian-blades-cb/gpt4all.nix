@@ -1,0 +1,11 @@
+* gpt4all.nix
+
+Flake for the ~chat~ and ~quantize~ binaries for [gpt4all](https://github.com/nomic-ai/gpt4all).
+
+** Usage
+
+Download the [model checkpoint](https://github.com/nomic-ai/gpt4all#try-it-yourself), or use the [torrent link](https://github.com/nomic-ai/gpt4all#gpt4all-lora-quantizedbin-torrent-link) (recommended).
+
+#+begin_src bash
+  nix run 'github:christian-blades-cb/gpt4all.nix#'
+#+end_src
